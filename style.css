@@ -1,0 +1,123 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #35495e;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
+  /* Styling Navigation */
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+
+  nav li {
+    margin-left: 20px;
+    padding: 10px 20px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+
+  nav a:hover {
+    color: #9bc6c8;
+  }
+
+/* Styling Hero */
+  #hero {
+    background-color: #9bc6c8;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 20px;
+    line-height: 55%;
+  }
+
+/* Styling About*/
+  #about {
+    background-color: #f0f0f0;
+    padding: 50px 50px;
+    text-align: center;
+  }
+
+  .aboutmeimage img {
+    max-width: 50%;
+    border: 15px solid #35495e;
+    border-radius: 5px;
+  }
+
+  /* Styling Work */
+  #work {
+    background-color: #ffffff;
+    padding: 50px 0px;
+    text-align: center;
+  }
+
+  .project {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .project img {
+    max-width: 100%;
+  }
+
+  #portfolioprojects {
+    background-color: #ffffff;
+    padding: 50px 0px;
+    text-align: center;
+  }
+  
+  .category {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .category img {
+    width: 300px;
+    height: auto;
+  }
+  
+  .caption {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+
+  /* Stlying Contact*/
+  #contact {
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    text-align: center;
+  }
+
+  .contactinfo ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .contactinfo li {
+    margin-bottom: 10px;
+  }
+
+  /* Styling Footer */
+  footer {
+    background-color: #35495e;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+  }
